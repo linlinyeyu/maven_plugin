@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hellomavenplugin.iml" filepath="$PROJECT_DIR$/hellomavenplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-maven-plugin.iml" filepath="$PROJECT_DIR$/hello-maven-plugin.iml" />
     </modules>
   </component>
 </project>
