@@ -9,11 +9,12 @@ import org.apache.maven.plugin.MojoFailureException;
  * @phase process-sources
  */
 public class CountMojo extends AbstractMojo {
-    private static final String[] INCLUDES_DEFAULT = {"java","xml","sql","properties"};
-    private static final String[] RATIOS_DEFAULT = {"1.0","0.25","0.25","0.25"};
-    private static final String DOT = ".";
-    
-    public void execute() throws MojoExecutionException, MojoFailureException {
+    /**
+     * @parameter expression="${name}"
+     */
+    private String name = "yeyu";
 
+    public void execute() throws MojoExecutionException, MojoFailureException {
+        getLog().info("测试插件"+name);
     }
 }
